@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Header from "./Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./Home";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <h1>Home page</h1>
+            <Home />
           </Route>
         </Switch>
       </div>
